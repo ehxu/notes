@@ -53,11 +53,11 @@ export default defineUserConfig({
       title: "Olly's Notes",
       description: "你的假装努力，欺骗的只有你自己",
     },
-    "/en/": {
-      lang: "en-US",
-      title: "Olly's Notes",
-      description: "Vue-powered Static Site Generator",
-    },
+    // "/en/": {
+    //   lang: "en-US",
+    //   title: "Olly's Notes",
+    //   description: "Vue-powered Static Site Generator",
+    // },
   },
   theme: defaultTheme({
     logo: "/images/icon.png",
@@ -109,14 +109,14 @@ export default defineUserConfig({
           prismjs: !isProd,
         },
       },
-      "/en/": {
-        // navbar
-        navbar: navbar.en,
-        selectLanguageName: "English",
-        // sidebar
-        sidebar: sidebar.en,
-        sidebarDepth: 2,
-      },
+      // "/en/": {
+      //   // navbar
+      //   navbar: navbar.en,
+      //   selectLanguageName: "English",
+      //   // sidebar
+      //   sidebar: sidebar.en,
+      //   sidebarDepth: 2,
+      // },
     },
 
     themePlugins: {},
