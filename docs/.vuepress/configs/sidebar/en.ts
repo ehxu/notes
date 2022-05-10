@@ -6,7 +6,7 @@ export const en: SidebarConfig = {
       text: "CTF",
       children: [
         {
-          text: "笔记",
+          text: "Notes",
           link: "/en/ctf/notes/",
           children: [
             {
@@ -43,9 +43,15 @@ export const en: SidebarConfig = {
               text: "XCTF",
               link: "/en/ctf/writeup/xctf/",
               children: [
-                "xctf1",
-                "xctf2",
-            ]
+                {
+                  text: "Web Exercise",
+                  link: "/en/ctf/writeup/xctf/web/exercise/",
+                },
+                {
+                  text: "Web Challenge",
+                  link: "/en/ctf/writeup/xctf/web/challenge/",
+                },
+              ],
             },
             {
               text: "BUUCTF",
@@ -66,10 +72,10 @@ export const en: SidebarConfig = {
   ],
   "/en/program/": [
     {
-      text: "编程语言",
+      text: "Program Language",
       children: [
         {
-          text: "前端",
+          text: "Frontend",
           link: "/en/program/frontend/",
           children: [
             {
@@ -91,7 +97,7 @@ export const en: SidebarConfig = {
           ],
         },
         {
-          text: "服务端",
+          text: "Backend",
           link: "/en/program/backend/",
           children: [
             {
@@ -117,7 +123,7 @@ export const en: SidebarConfig = {
           ],
         },
         {
-          text: "数据库",
+          text: "Database",
           link: "/en/program/database/",
           children: [
             {
@@ -139,10 +145,10 @@ export const en: SidebarConfig = {
   ],
   "/en/tutorial/": [
     {
-      text: "技术教程",
+      text: "Tutorial",
       children: [
         {
-          text: "操作系统",
+          text: "OS",
           link: "/en/tutorial/os/",
           children: [
             {
@@ -168,7 +174,7 @@ export const en: SidebarConfig = {
           ],
         },
         {
-          text: "必备工具",
+          text: "Required Tools",
           link: "/en/tutorial/tools/",
           children: [
             {
@@ -190,7 +196,7 @@ export const en: SidebarConfig = {
           ],
         },
         {
-          text: "持续集成",
+          text: "Continuous integration",
           link: "/en/tutorial/ci/",
           children: [
             {
@@ -208,23 +214,23 @@ export const en: SidebarConfig = {
   ],
   "/en/links/": [
     {
-      text: "友情链接",
+      text: "Links",
       children: [
         {
-          text: "站长精选",
+          text: "Featured Links",
           children: [
             {
-              text: "站长博客",
-              link: "//vico.vercel.app/",
+              text: "Blog",
+              link: "//ollyhsu.com/",
             },
             {
-              text: "实用工具",
+              text: "Tools",
               link: "/en/links/tools/",
             },
           ],
         },
         {
-          text: "本站友链",
+          text: "Friends",
           link: "/en/links/friends/",
           children: [],
         },
@@ -233,14 +239,14 @@ export const en: SidebarConfig = {
   ],
   "/en/about/": [
     {
-      text: "关于",
+      text: "About",
       children: [
         {
-          text: "关于我",
+          text: "About Me",
           link: "/en/about/me/",
         },
         {
-          text: "关于本站",
+          text: "About Site",
           link: "/en/about/site/",
         },
       ],

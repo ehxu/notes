@@ -43,9 +43,15 @@ export const zh: SidebarConfig = {
               text: "XCTF",
               link: "/ctf/writeup/xctf/",
               children: [
-                "xctf1",
-                "xctf2",
-            ]
+                {
+                  text: "Web Exercise",
+                  link: "/ctf/writeup/xctf/web/exercise/",
+                },
+                {
+                  text: "Web Challenge",
+                  link: "/ctf/writeup/xctf/web/challenge/",
+                },
+              ],
             },
             {
               text: "BUUCTF",
@@ -215,7 +221,7 @@ export const zh: SidebarConfig = {
           children: [
             {
               text: "站长博客",
-              link: "//vico.vercel.app/",
+              link: "//ollyhsu.com/",
             },
             {
               text: "实用工具",
