@@ -1,0 +1,16 @@
+{
+  "name": "notes",
+  "version": "1.0.0",
+  "description": "Notes written by Olly",
+  "main": "index.ts",
+  "repository": "https://github.com/ollyhsu/notes",
+  "author": "Olly",
+  "license": "MIT",
+  "devDependencies": {
+    "vuepress": "^2.0.0-beta.43"
+  },
+    "scripts": {
+    "docs:dev": "vuepress dev docs",
+    "docs:build": "vuepress build docs"
+  }
+}
