@@ -1,0 +1,1 @@
+const t={key:"v-f1d0edc2",path:"/tutorial/os/windows/",title:"About",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Test",slug:"test",children:[]}],git:{updatedTime:1652235174e3,contributors:[{name:"Eon",email:"72177839+ehxu@users.noreply.github.com",commits:1}]},filePathRelative:"tutorial/os/windows/README.md"};export{t as data};

@@ -1,0 +1,1 @@
+const e={key:"v-c88f00aa",path:"/program/backend/cpp/",title:"About",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Test",slug:"test",children:[]}],git:{updatedTime:1652235174e3,contributors:[{name:"Eon",email:"72177839+ehxu@users.noreply.github.com",commits:1}]},filePathRelative:"program/backend/cpp/README.md"};export{e as data};

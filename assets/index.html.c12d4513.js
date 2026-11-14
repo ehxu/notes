@@ -1,0 +1,1 @@
+const t={key:"v-47fc9e13",path:"/tutorial/os/",title:"About",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Test",slug:"test",children:[]}],git:{updatedTime:1652235174e3,contributors:[{name:"Eon",email:"72177839+ehxu@users.noreply.github.com",commits:1}]},filePathRelative:"tutorial/os/README.md"};export{t as data};

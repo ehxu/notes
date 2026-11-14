@@ -1,0 +1,1 @@
+const e={key:"v-47ce6d91",path:"/ctf/writeup/xctf/web/challenge/",title:"About",lang:"zh-CN",frontmatter:{},excerpt:"",headers:[{level:2,title:"Test",slug:"test",children:[]}],git:{updatedTime:1652235174e3,contributors:[{name:"Eon",email:"72177839+ehxu@users.noreply.github.com",commits:1}]},filePathRelative:"ctf/writeup/xctf/web/challenge/README.md"};export{e as data};
